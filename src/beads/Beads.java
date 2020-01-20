@@ -24,7 +24,6 @@ public class Beads {
     {
         color=clr;
         letter=ltr;    
-        side=s;
     }
     /** getter for color
      * @return the color
