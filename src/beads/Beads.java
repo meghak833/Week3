@@ -13,7 +13,7 @@ package beads;
 public class Beads {
     public String color;
     public char letter;
-
+    //yes this actually is a different version!!!
     Beads()
     {
             color="red";
