@@ -26,5 +26,5 @@ public class BeadTest {
     System.out.print("color: "+b3.color+"\n"+"letter: "+b3.letter+"\n");
      
     }
-    dfasf
+    dfasfwfa
 }
