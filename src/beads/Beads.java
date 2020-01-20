@@ -19,12 +19,14 @@ public class Beads {
     {
             color="red";
             letter='R';
+            side=6;
     }
     
-    public Beads(String clr,char ltr)
+    public Beads(String clr,char ltr, int s)
     {
         color=clr;
         letter=ltr;    
+        side=s;
     }
     /** getter for color
      * @return the color
