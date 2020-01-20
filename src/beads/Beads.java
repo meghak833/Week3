@@ -13,6 +13,7 @@ package beads;
 public class Beads {
     public String color;
     public char letter;
+    public int side;
 
     Beads()
     {
