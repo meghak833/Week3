@@ -13,20 +13,21 @@ package beads;
 public class Beads {
     public String color;
     public char letter;
-    public int side;
-
+    public double weight;//in mg
+    
     Beads()
     {
             color="red";
             letter='R';
-            side=6;
+            weight= 40;
     }
     
-    public Beads(String clr,char ltr, int s)
+    public Beads(String clr,char ltr,double w)
     {
         color=clr;
         letter=ltr;    
-        side=s;
+        weight=w;
+        
     }
     /** getter for color
      * @return the color
