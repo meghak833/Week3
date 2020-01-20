@@ -22,7 +22,7 @@ public class BeadTest {
         Beads b2=new Beads();
         System.out.print("color: "+b2.color+"\n"+"letter: "+b2.letter+"\n");
       // Using parameterized constructor
-        Beads b3=new Beads("green",'G');
+        Beads b3=new Beads("green",'G',6);
     System.out.print("color: "+b3.color+"\n"+"letter: "+b3.letter+"\n");
      
     }
