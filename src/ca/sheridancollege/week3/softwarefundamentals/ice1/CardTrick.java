@@ -45,7 +45,7 @@ public class CardTrick {
 }else{
         System.out.println("no lucky card");
     }
-    }
+ }
         
         
       
