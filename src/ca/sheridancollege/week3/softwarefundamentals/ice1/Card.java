@@ -18,8 +18,10 @@ public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
+   
+  
 
-   public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
      * @return the suit
      */
@@ -48,6 +50,13 @@ public class Card {
         this.value = value;
     }
    
-   
+
+    Card(){
+        
+    }
+    
+   public String toString(){
+       return this.value + " " + this.suit;
+   }
     
 }
